@@ -27,6 +27,10 @@ class Task():
 
 task1 = Task("Задача 1", "2020-10-10", "Не выполнено")
 task2 = Task("Написать реферат", "2024-03-24", "Выполнено")
-print(task2.description)
-print(task2.deadline)
-print(task2.status)
+#print(task2.description)
+#print(task2.deadline)
+#print(task2.status)
+task1.add_tasks()
+task1.mark_tasks()
+task1.list_tasks()
+
