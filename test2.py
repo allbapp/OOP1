@@ -34,8 +34,8 @@ store_items = [
 
 
 shop1 = Store("shop1", "address1", store_items)
-#print(shop1.address)
-#print(shop1.get_item_price("Apples"))  # Выведет 1.99
+
+
 shop2 = Store("shop2", "address2", store_items)
 shop3 = Store("shop3", "address3", store_items)
 
@@ -44,6 +44,7 @@ shop1.add_item("Bananas", 2.99)
 shop1.add_item("Cherries", 3.49)
 
 
-shop1.remove_item("Apples")
+#shop1.remove_item("Apples")
 print(shop1.get_price("Bananas"))
 shop1.update_price("Cherries", 3.55)
+print(shop1.items)
